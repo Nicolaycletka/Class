@@ -96,7 +96,11 @@ nav li {
 main {
 
 }
+<<<<<<< HEAD
 .mainbloc{
+=======
+.mainbloc {
+>>>>>>> i don't know
     box-sizing:border-box;
     width: 980px;
     height: 600px;
