@@ -6,7 +6,7 @@ body {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   font-family: Calibri, Serif, serif;
-  font-size: 15px;
+  font-size: 1.5vh;
 }
 h1 {
   margin: 0;
@@ -14,29 +14,29 @@ h1 {
 .head {
   box-sizing: border-box;
   display: block;
-  width: 1000px;
-  height: 233px;
+  width: 52vw;
+  height: 24vh;
   background-color: aqua;
-  margin: 0 auto 10px;
+  margin: 0 auto 1vh;
   padding: 0;
-  line-height: 32px;
+  line-height: 3.5vh;
   text-align: left;
   background-image: url("title-2.jpg");
 }
 .h1 {
-  font-size: 40px;
+  font-size: 4vh;
   font-weight: 400;
-  padding-left: 100px;
-  padding-top: 60px;
+  padding-left: 5.1vw;
+  padding-top: 7vh;
   margin: 0;
   padding-bottom: 0;
   display: block;
 }
 
 .slogan {
-  font-size: 17px;
+  font-size: 2vh;
   font-weight: 100;
-  padding-left: 100px;
+  padding-left: 5.1vw;
   margin: 0;
   padding-top: 0;
   display: inline-block;
@@ -44,36 +44,36 @@ h1 {
 
 nav {
   box-sizing: border-box;
-  border: 1px dotted;
-  width: 980px;
-  height: 57px;
+  border: 0.01vh dotted;
+  width: 51vw;
+  height: 6vh;
   background-color: #c8b6dc;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  overflow: hidden;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  font-size: 15px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 2.5vw;
+  font-size: 2vh;
   color: #614a66;
-}
+  }
 nav li {
   box-sizing: border-box;
   text-align: right;
-  font-size: 15px;
+  font-size: 1.4vh;
   color: black;
   display: inline-block;
-  overflow: hidden;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  vertical-align: center;
 }
 .dots {
   box-sizing: border-box;
-  border-right: 2px dotted #614a66;
-  width: 1px;
-  height: 15px;
+  border-right: 0.2vh dotted #614a66;
+  width: 0.01vw;
+  height: 1.4vh;
   padding: 0;
+  vertical-align: center;
 }
 .hidden {
   box-sizing: border-box;
@@ -84,82 +84,78 @@ nav li {
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .mainbloc {
-  box-sizing: border-box;
-  width: 980px;
-  height: 600px;
+  width: 100vw;
+  height: auto;
 
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  overflow: hidden;
-}
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
 
 .main-information {
   box-sizing: border-box;
-  width: 750px;
-  height: auto;
+  width: 40vw;
+  height: 62vh;
   text-align: left;
-  font-size: 15px;
+  font-size: 2vh;
   color: #614a66;
-  overflow: hidden;
-  background-color: white;
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu-information {
   box-sizing: border-box;
-  width: 226px;
-  height: auto;
+  width: 10vw;
+  height: 62vh;
   text-align: left;
-  font-size: 15px;
+  font-size: 2vh;
   color: #614a66;
-  overflow: hidden;
   vertical-align: top;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
   margin: 0;
 }
 
 .ab {
   box-sizing: border-box;
   list-style-type: none;
-  width: 750px;
-  height: 300px;
+  width: 40vw;
+  height: 31vh;
   text-align: justify;
-  display: block;
-  overflow: hidden;
-
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: initial;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.6vh;
   -webkit-text-stroke: initial;
   color: initial;
 }
 .Etiam {
   box-sizing: border-box;
   list-style-type: none;
-  width: 375px;
-  height: 250px;
+  width: 20vw;
+  height: 22vh;
   text-align: justify;
   display: inline-block;
-  overflow: hidden;
-
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1vw;
+  padding-right: 1vw;
   margin: 0;
-  font-size: initial;
+  font-size: 1.6vh;
   -webkit-text-stroke: initial;
   color: initial;
 }
 .line {
-  border-left: 1px solid #614a66;
+  border-left: 0.01vh solid #614a66;
 }
 .body-tabe {
   font-size: 0;
@@ -176,41 +172,39 @@ span a {
 .bottom {
   color: black;
   font-weight: bold;
-  padding: 7px 15px 11px 15px;
-  border: 1px solid black;
-  background-color: #d8cfd4;
+  padding: 1vh 0.9vw 1.3vh 0.9vw;
+  border: 0.01vw solid black;
 }
 li {
-  font-size: 20px;
+  font-size: 3vh;
 }
 
 footer {
   box-sizing: border-box;
-  width: 980px;
-  height: 45px;
+  width: 51vw;
+  height: 5vh;
   background-color: #c8b6dc;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  overflow: hidden;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 0.1vh;
+  padding-bottom: 0.1vh;
   padding-left: 0;
 }
 .twoangle {
   list-style-type: "»";
   color: white;
-  -webkit-text-stroke: 1px black;
-  font-size: 30px;
+  -webkit-text-stroke: 0.06vh black;
+  font-size: 3.3vh;
   margin-left: 0;
   padding-left: 0;
   list-style-position: inside;
-  margin-top: 20px;
+  margin-top: 1vw;
 }
 .arrow {
   -webkit-text-stroke: 0 black;
   list-style-type: "►►";
-  font-size: 7px;
+  font-size: 0.7vh;
   font-weight: bold;
   padding-left: 0;
   color: black;
@@ -223,28 +217,28 @@ li .arrow a {
   -webkit-text-stroke: 0 black;
   text-decoration: none;
   color: #7f6f93;
-  font-size: 20px;
-  padding-left: 10px;
+  font-size: 2.2vh;
+  padding-left: 1vh;
   margin-left: 0;
   vertical-align: middle;
 }
 
 .mainmenu {
-  font-size: 25px;
+  font-size: 2.7vh;
   font-weight: bold;
   -webkit-text-stroke: 0 black;
   color: black;
   vertical-align: bottom;
-  padding-left: 10px;
+  padding-left: 1vh;
 }
 .oncneg {
-  margin-top: 20px;
-  font-size: initial;
+  margin-top: 2vh;
+  font-size: 1.6vh;
   -webkit-text-stroke: initial;
   color: initial;
 }
 
 .underborder {
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
+  padding-bottom: 2vh;
+  border-bottom: 0.01vh solid black;
 }
