@@ -70,10 +70,9 @@ nav li {
   display: block;
   padding-left: 1vh;
   padding-right: 1vh;
-  margin: auto;
+    margin: auto;
+  }
 
-
-}
 .dots {
   box-sizing: border-box;
   border-right: 0.2vh dotted #614a66;
@@ -95,7 +94,7 @@ nav li {
 
 .main-information {
   width: 40vw;
-  height: 62vh;
+  height: auto;
   text-align: left;
   font-size: 2vh;
   color: #614a66;
@@ -145,6 +144,7 @@ nav li {
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 h2 {
   text-align: left;
