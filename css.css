@@ -60,18 +60,18 @@ nav {
   font-size: 2vh;
   color: #614a66;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 
   }
 nav li {
-  box-sizing: border-box;
-  text-align: right;
-  font-size: 1.4vh;
+    font-size: 1.4vh;
   color: black;
   display: block;
   padding-left: 1vh;
   padding-right: 1vh;
+  margin: auto;
+
 
 }
 .dots {
@@ -81,7 +81,7 @@ nav li {
   height: 1.4vh;
   padding: 0;
   vertical-align: center;
-  display: block;
+
 }
 
 
