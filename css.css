@@ -41,7 +41,11 @@ h1 {
   padding-top: 0;
   display: inline-block;
 }
-
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 nav {
   box-sizing: border-box;
   border: 0.01vh dotted;
@@ -50,22 +54,25 @@ nav {
   background-color: #c8b6dc;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
   padding-top: 2vh;
   padding-bottom: 2vh;
   padding-left: 2.5vw;
   font-size: 2vh;
   color: #614a66;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
   }
 nav li {
   box-sizing: border-box;
   text-align: right;
   font-size: 1.4vh;
   color: black;
-  display: inline-block;
+  display: block;
   padding-left: 1vh;
   padding-right: 1vh;
-  vertical-align: center;
+
 }
 .dots {
   box-sizing: border-box;
@@ -74,35 +81,19 @@ nav li {
   height: 1.4vh;
   padding: 0;
   vertical-align: center;
-}
-.hidden {
-  box-sizing: border-box;
-  width: 100%;
-  height: 0;
-  visibility: hidden;
-  overflow: hidden;
+  display: block;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+
 
 .mainbloc {
   width: 100vw;
-  height: auto;
-
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  display: flex;
+   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   }
 
 .main-information {
-  box-sizing: border-box;
   width: 40vw;
   height: 62vh;
   text-align: left;
@@ -110,49 +101,39 @@ main {
   color: #614a66;
   padding: 0;
   margin: 0;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .menu-information {
-  box-sizing: border-box;
-  width: 10vw;
+   width: 10vw;
   height: 62vh;
-  text-align: left;
-  font-size: 2vh;
+   font-size: 2vh;
   color: #614a66;
-  vertical-align: top;
-  padding-left: 0.5vw;
+   padding-left: 0.5vw;
   padding-right: 0.5vw;
-  margin: 0;
+
 }
 
 .ab {
   box-sizing: border-box;
-  list-style-type: none;
-  width: 40vw;
+    width: 40vw;
   height: 31vh;
   text-align: justify;
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: 1.6vh;
-  -webkit-text-stroke: initial;
-  color: initial;
-}
+ }
 .Etiam {
   box-sizing: border-box;
-  list-style-type: none;
   width: 20vw;
   height: 22vh;
-  text-align: justify;
-  display: inline-block;
-  padding-left: 1vw;
+   padding-left: 1vw;
   padding-right: 1vw;
   margin: 0;
   font-size: 1.6vh;
-  -webkit-text-stroke: initial;
-  color: initial;
+
 }
 .line {
   border-left: 0.01vh solid #614a66;
@@ -161,6 +142,9 @@ main {
   font-size: 0;
   margin-left: 0;
   padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 h2 {
   text-align: left;
