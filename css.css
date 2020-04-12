@@ -139,6 +139,7 @@ nav li {
   padding-left: 1vw;
   padding-right: 1vw;
   font-size: 16px;
+  flex-shrink: 0;
  }
 .Etiam {
   box-sizing: border-box;
@@ -148,6 +149,7 @@ nav li {
   padding-right: 1vw;
   margin: 0;
   font-size: 16px;
+  flex-shrink: 0;
 
 }
 .line {
