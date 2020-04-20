@@ -1,3 +1,4 @@
+
 body {
   display: block;
   width: auto;
@@ -245,3 +246,9 @@ li .arrow a {
   font-size: 20px;
 
 }
+
+.wi {
+  width: 1000px;
+  margin: auto;
+  background-color: #d5d1dc;
+     }
